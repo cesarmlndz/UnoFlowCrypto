@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Inter:wght@400;700&family=Poppins&display=swap');
+
+/* MASTER STYLES / RULES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: rgb(45, 54, 66);
+}
+
+.full-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SEARCH SECTION */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+form h1 {
+    font-family: 'Bungee', cursive;
+    color: white;
+}
+
+.flow-word {
+    font-family: 'Bungee', cursive;
+    color: lightblue;
+}
+
+input {
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    outline: none;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* LIST OF COINS SECTION */
+
+.all-coins-container {
+    margin-top: 2rem;
+    height: 85%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.coin-header {
+    height: 3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 0.45rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1.5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 7px;
+}
+
+.coin-container {
+    height: 4rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 0.45rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 7px;
+}
+
+.coin-container:hover {
+    transform: scale(1.03);
+    transition: .25s ease-in-out;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.67%;
+}
+
+.img {
+    height: 2rem;
+    margin-right: 0.7rem;
+}
+
+/* DARK MODE / LIGHT MODE TOGGLE */
+
+#light {
+    background: rgb(183, 213, 222);
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    font-family: 'Bungee', cursive;
+    color: white;
+    margin-left: 70rem;
+}
+
+#light .switch {
+    font-family: 'Bungee', cursive;
+    color: black;
+}
+
+.switch label {
+    margin-right: 0.7rem;
+}
+
+.switch-button {
+    border: 1px solid black;
+}
+
+#light .uno-word {
+    color: rgb(58, 56, 56);
+}
+
+#light .flow-word {
+    color: rgb(82, 134, 255);
+}
+
+#light .crypto-word {
+    color: rgb(58, 56, 56);
+}
+
+#light input {
+    border: 2px solid black;
+}
+
+#light .coin-header {
+    color: black;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.284);
+}
+
+#light .coin-container {
+    color: black;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.284);
+}
+
+
+
+
+
