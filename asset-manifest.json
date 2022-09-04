@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UnoFlowCrypto/static/css/main.39641997.css",
+    "main.js": "/UnoFlowCrypto/static/js/main.cf1b4be7.js",
+    "index.html": "/UnoFlowCrypto/index.html",
+    "main.39641997.css.map": "/UnoFlowCrypto/static/css/main.39641997.css.map",
+    "main.cf1b4be7.js.map": "/UnoFlowCrypto/static/js/main.cf1b4be7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39641997.css",
+    "static/js/main.cf1b4be7.js"
+  ]
+}
